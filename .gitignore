@@ -2,5 +2,32 @@
 # .DS_Store
 .DS_Store
 
-# notebooks
-.ipynb_checkpoints
+# data
+data/
+
+# models
+models/
+
+# logs
+logs/
+
+# cache
+cache/
+
+# temp
+temp/
+
+# virtualenv
+venv/
+
+# IDE
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+
+# Node.js
+node_modules/    

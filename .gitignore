@@ -24,7 +24,9 @@ venv/
 .idea/
 
 # Jupyter Notebook
+.ipynb_checkpoints
 .ipynb_checkpoints/
+ipynb_checkpoints/
 
 # Python
 __pycache__/

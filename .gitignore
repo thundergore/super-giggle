@@ -23,10 +23,12 @@ venv/
 # IDE
 .idea/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-ipynb_checkpoints/
+
+# Jupyter Notebook metadata (if applicable)
+*.ipynb-meta/
+
 
 # Python
 __pycache__/

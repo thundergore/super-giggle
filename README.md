@@ -1,6 +1,7 @@
-<div style="text-align: center;">
+<p align="center">
     <img src="img/dall-e-logo.webp" alt="Craig Turner's Logo" width="300">
-</div>
+</p>
+
 
 
 # Craig Turner's Data Visualizations

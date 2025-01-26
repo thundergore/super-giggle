@@ -1,9 +1,8 @@
+<img src="img/dall-e-logo.webp" alt="Craig Turner's Logo" width="300" style="display: block; margin: 0 auto;">
+
 # Craig Turner's Data Visualizations
 
 **Date**: `2025-01-26`
-
-![Craig Turner's Logo](img/dall-e-logo.webp)
-
 
 ## Overview
 Welcome to the repository showcasing my skills, experience, and technical proficiency as a data analyst. This repository includes visualizations created to tell a data-driven story about my professional journey, technical skills, and approach to analytics. Below, you'll find a summary of the work included and its purpose.

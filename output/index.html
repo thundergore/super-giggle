@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craig Turner - Data Analyst Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Craig Turner's data analytics portfolio showcasing professional experience in data analysis, visualization, and engineering.">
+    <meta name="keywords" content="data analyst, data visualization, SQL, Python, NLP, machine learning, analytics engineering">
+    <meta name="author" content="Craig Turner">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thundergore.github.io/super-giggle/">
+    <meta property="og:title" content="Craig Turner - Data Analyst Portfolio">
+    <meta property="og:description" content="Interactive data visualizations showcasing professional journey in data analytics">
+    <meta property="og:image" content="https://thundergore.github.io/super-giggle/img/dall-e-logo.webp">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Counter.dev Traffic Tracking -->
+    <script src="https://cdn.counter.dev/script.js"
+        data-id="616630a8-8a5a-434d-9fe8-9a1c3adcb1f2"
+        data-utcoffset="1"></script>
+
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .viz-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .viz-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        iframe {
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <header class="gradient-bg text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <img src="../img/dall-e-logo.webp" alt="Craig Turner Logo" class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl">
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Craig Turner</h1>
+                    <p class="text-xl md:text-2xl text-purple-100 mb-4">Data Analyst | Analytics Engineer</p>
+                    <p class="text-lg text-purple-200 max-w-2xl">
+                        Exploring data through analytics, visualization, and engineering.
+                        Professional experience spanning gaming, entertainment, and media industries.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
+                        <a href="https://www.linkedin.com/in/craigianturner" target="_blank" class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-100 transition">
+                            LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/thundergore" target="_blank" class="bg-purple-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-900 transition">
+                            GitHub
+                        </a>
+                        <a href="../METHODOLOGY.md" class="bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition">
+                            Methodology
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="py-16">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-md">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Professional Journey</h2>
+                <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed">
+                    <p class="mb-4">
+                        My career demonstrates a progression from customer-facing roles to data-centric positions,
+                        building expertise in analytics, visualization, and data engineering along the way.
+                    </p>
+                    <p class="mb-4">
+                        Starting in gaming support and community management, I developed strong problem-solving skills
+                        and learned to identify patterns in user behavior and technical issues.
+                    </p>
+                    <p class="mb-4">
+                        This foundation led naturally to technical support and analytics roles at HBO Max, where data
+                        became central to understanding platform performance and user experience.
+                    </p>
+                    <p>
+                        Currently at Schibsted, I work with modern data stack tools including dbt, Flyte, and Snowflake,
+                        focusing on analytics engineering and data quality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualizations -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center">Interactive Portfolio Visualizations</h2>
+            <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+                Explore my professional journey through data. All visualizations are interactive—hover, zoom, and click to discover more details.
+            </p>
+
+            <!-- Timeline -->
+            <div class="mb-16 viz-container p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Professional Timeline</h3>
+                <p class="text-gray-600 mb-6">
+                    Career progression from gaming communities to data engineering, showing how each role contributed
+                    to building technical expertise.
+                </p>
+                <iframe src="visualizations/timeline.html" width="100%" height="550" class="w-full"></iframe>
+            </div>
+
+            <!-- Heatmap -->
+            <div class="mb-16 viz-container p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Skills Evolution Across Roles</h3>
+                <p class="text-gray-600 mb-6">
+                    How technical responsibilities evolved over time, from basic reporting to advanced analytics engineering.
+                    Values represent time spent on each area within each role.
+                </p>
+                <iframe src="visualizations/heatmap.html" width="100%" height="550" class="w-full"></iframe>
+            </div>
+
+            <!-- Radar -->
+            <div class="mb-16 viz-container p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Current Technical Proficiency</h3>
+                <p class="text-gray-600 mb-6">
+                    Self-assessed proficiency levels across key technical areas. See the methodology documentation
+                    for details on how these scores are determined.
+                </p>
+                <iframe src="visualizations/radar.html" width="100%" height="650" class="w-full"></iframe>
+            </div>
+
+            <!-- Treemap -->
+            <div class="mb-16 viz-container p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Skills & Tools Portfolio</h3>
+                <p class="text-gray-600 mb-6">
+                    Technical competencies organized by category. Size represents relative proficiency levels.
+                </p>
+                <iframe src="visualizations/wordcloud.html" width="100%" height="650" class="w-full"></iframe>
+            </div>
+
+            <!-- Network -->
+            <div class="mb-16 viz-container p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Technology Ecosystem</h3>
+                <p class="text-gray-600 mb-6">
+                    How technologies connect in practice. Shows relationships between tools and skills based on
+                    typical usage patterns in data projects.
+                </p>
+                <iframe src="visualizations/network.html" width="100%" height="850" class="w-full"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Note -->
+    <section class="py-12">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                <h3 class="text-xl font-semibold text-blue-900 mb-3">About This Data</h3>
+                <p class="text-blue-800 mb-3">
+                    All visualizations are generated from structured, version-controlled data with comprehensive quality testing.
+                    Proficiency scores follow a standardized 0-100 scale with clear criteria for each level.
+                </p>
+                <p class="text-blue-800">
+                    For transparency on how this data is collected, assessed, and maintained, see the
+                    <a href="../METHODOLOGY.md" class="underline font-semibold hover:text-blue-600">detailed methodology documentation</a>.
+                </p>
+                <p class="text-sm text-blue-700 mt-3">
+                    Last Updated: 2025-01-26 | Version 2.0.0
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold text-xl mb-4">Craig Turner</h4>
+                    <p class="text-gray-400">Data Analyst & Analytics Engineer</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.linkedin.com/in/craigianturner" class="text-gray-400 hover:text-purple-400 transition">LinkedIn</a></li>
+                        <li><a href="https://github.com/thundergore" class="text-gray-400 hover:text-purple-400 transition">GitHub</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="../METHODOLOGY.md" class="text-gray-400 hover:text-purple-400 transition">Methodology</a></li>
+                        <li><a href="../README.md" class="text-gray-400 hover:text-purple-400 transition">About This Project</a></li>
+                        <li><a href="https://github.com/thundergore/super-giggle" class="text-gray-400 hover:text-purple-400 transition">View Source Code</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Craig Turner. Data-driven portfolio built with Python, Plotly, and Tailwind CSS.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

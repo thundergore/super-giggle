@@ -3,8 +3,8 @@
 .AppleDouble
 .LSOverride
 
-# Data directories
-data/
+# Data directories (only top-level, not src/data/)
+/data/
 
 # Model directories
 models/

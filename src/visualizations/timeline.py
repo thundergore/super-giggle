@@ -41,10 +41,13 @@ def create_timeline(
             hover_text += f"• {resp}<br>"
 
         # Add bar for this role
+        # For roles that start in current year, show at least 0.5 year width so they're visible
+        bar_width = max(end_year - start_year, 0.5)
+
         fig.add_trace(
             go.Bar(
                 name=role.company,
-                x=[end_year - start_year],
+                x=[bar_width],
                 y=[i],
                 base=start_year,
                 orientation="h",

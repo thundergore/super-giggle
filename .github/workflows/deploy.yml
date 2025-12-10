@@ -37,6 +37,13 @@ jobs:
         run: |
           python src/generate.py
 
+      - name: Copy documentation and assets to output
+        run: |
+          cp METHODOLOGY.md output/
+          cp README.md output/
+          cp CHANGELOG.md output/
+          cp -r img output/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

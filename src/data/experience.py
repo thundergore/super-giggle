@@ -60,7 +60,7 @@ EXPERIENCE = [
         company="Lionbridge",
         title="Consultant",
         start_year=2012,
-        end_year=2017,
+        end_year=2018,
         color="#87CEEB",  # Sky blue
         responsibilities=[
             "Quality assurance testing",

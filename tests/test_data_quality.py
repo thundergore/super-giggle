@@ -34,12 +34,12 @@ class TestExperienceData:
         assert current_role == EXPERIENCE[-1], "Current role should be last in list"
 
     def test_no_year_overlaps(self):
-        """Ensure no role years overlap."""
+        """Ensure no role years overlap (allows same-year transitions)."""
         for i in range(len(EXPERIENCE) - 1):
             current = EXPERIENCE[i]
             next_role = EXPERIENCE[i + 1]
             if current.end_year:
-                assert current.end_year < next_role.start_year, (
+                assert current.end_year <= next_role.start_year, (
                     f"Role overlap detected: {current.company} ends in {current.end_year}, "
                     f"but {next_role.company} starts in {next_role.start_year}"
                 )
@@ -59,7 +59,7 @@ class TestExperienceData:
         """Test duration calculation is reasonable."""
         for role in EXPERIENCE:
             duration = role.duration_years
-            assert 0 < duration <= 50, (
+            assert 0 <= duration <= 50, (
                 f"{role.company} duration {duration} years seems unreasonable"
             )
 

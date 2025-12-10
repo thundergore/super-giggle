@@ -27,6 +27,7 @@ jobs:
 
       - name: Run tests
         run: |
+          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
           pytest tests/ -v
 
       - name: Generate visualizations

@@ -8,7 +8,7 @@
 [![Plotly](https://img.shields.io/badge/plotly-5.18+-purple.svg)](https://plotly.com/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-**Version**: `2.0.0` | **Last Updated**: `2025-01-26`
+**Version**: `2.0.0` | **Last Updated**: `2025-12-10`
 
 Interactive data visualizations showcasing 19 years of professional experience in data analytics, from gaming communities to enterprise analytics engineering. Built with modern Python data stack and interactive Plotly visualizations.
 
@@ -23,7 +23,7 @@ Interactive data visualizations showcasing 19 years of professional experience i
 
 ## Live Demo
 
-View the portfolio at: [Your GitHub Pages URL]
+View the portfolio at: [\[Super-giggle\]](https://thundergore.github.io/super-giggle/)
 
 ## Features
 

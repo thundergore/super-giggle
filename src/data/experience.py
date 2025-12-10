@@ -46,8 +46,8 @@ EXPERIENCE = [
     Role(
         company="Jolt Online Gaming",
         title="Community Manager",
-        start_year=2009,
-        end_year=2011,
+        start_year=2008,
+        end_year=2012,
         color="#FFD700",  # Gold
         responsibilities=[
             "Community engagement and content moderation",
@@ -73,7 +73,7 @@ EXPERIENCE = [
         company="HBO Max",
         title="Technical Support",
         start_year=2018,
-        end_year=2020,
+        end_year=2021,
         color="#9B59B6",  # Purple
         responsibilities=[
             "Technical troubleshooting for streaming platform",
@@ -86,7 +86,7 @@ EXPERIENCE = [
         company="HBO Max / WarnerBros",
         title="Data Analyst",
         start_year=2021,
-        end_year=2022,
+        end_year=2023,
         color="#FF8C00",  # Orange
         responsibilities=[
             "Data pipeline development and maintenance",
@@ -111,7 +111,7 @@ EXPERIENCE = [
     Role(
         company="Schibsted",
         title="Data Scientist",
-        start_year=2026,
+        start_year=2025,
         end_year=None, # Current role
         color="#FF69B4",  # Pink
         responsibilities=[
